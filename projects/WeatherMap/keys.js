@@ -1,0 +1,2 @@
+darkSkyToken = 'f1377cbf03f3af44fb17317a0de570fb';
+mapboxToken = 'pk.eyJ1Ijoiam9zaG02ODE2IiwiYSI6ImNqc2tpa3Z6djA5dG8zem1sYXc4MTk4c3IifQ.leH7wLeVDAnfIgNHDqwSUA';

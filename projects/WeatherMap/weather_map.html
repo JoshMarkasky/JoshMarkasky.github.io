@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="UTF-8">
+
+        <title>Weather Map</title>
+
+        <!-- bootstrap link -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Map box link -->
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+        <!-- Css links -->
+        <link href="css/index.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+
+        <!-- navbar -->
+        <div class="navbar expand-md">
+            <div class="container">
+                    <div class="mx-auto">
+                        <div class="city">San Antonio</div>
+                    </div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <!-- Weather broadcast -->
+        <div class="container">
+                <div id="weather-layout"></div>
+            <hr>
+        </div>
+
+
+        <!-- Search bar in map box -->
+        <div class="container" id="input2">
+            <div class="row"><br>
+                <div class="col-md-4"></div>
+                <div class="col-md-3">
+                    <input class="form-control" id="search-man" placeholder="city/country">
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-primary" id="search-btn">submit</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- map box -->
+        <div class="container" id="outmap">
+            <div class="row">
+                <div id='map' style='width: 100%; height: 600px;'>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <script
+                src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous">
+
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="weather_map.js"></script>
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+        <script src="practice-geocode.js"></script>
+        <script src="keys.js"></script>
+
+    </body>
+</html>

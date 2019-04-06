@@ -1,0 +1,49 @@
+.container {
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+
+.react {
+    border: 2px black solid;
+}
+
+#weather {
+    background-image: url("../img/weather.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 21rem;
+    margin: 0;
+    padding: 0;
+    border: 2px black solid;
+}
+
+#pokemon{
+    background-image: url("../img/pokemon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 21rem;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    border: 2px black solid;
+}
+
+#pokemon a:hover {
+    visibility: hidden;
+}
+
+#react {
+    background-image: url("../img/react.svg");
+    height: 21rem;
+    background-size: contain;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
