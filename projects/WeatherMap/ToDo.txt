@@ -1,0 +1,18 @@
+Show current conditions for San Antonio DONE
+
+Display three-day forecast for San Antonio DONE
+
+
+    include icons DONE
+
+    Create an array of JS objects for following conditions: -- DONE
+    clear-day, clear-night, rain, snow, sleet, wind, fog,
+    cloudy, partly-cloudy-day, partly-cloudy-night.
+
+    create search for lat and long -- DONE
+
+
+
+
+    create a map where you can drag marker to get three day forecast of location
+    create a search by location with forecast update

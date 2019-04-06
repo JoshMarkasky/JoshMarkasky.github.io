@@ -1,0 +1,28 @@
+#navbar {
+    opacity: .5;
+    padding: 0;
+    border-bottom: 1px solid black;
+    height: 3rem;
+}
+
+#navbar .navbar-brand {
+    border-right: 1px black solid;
+    padding-right: 1rem;
+}
+
+#navbar button {
+    border-left: 1px solid black;
+    width: 6rem;
+    font-family: 'Arvo', serif;
+}
+
+@media (max-width: 575.98px) {
+
+    #navbar button {
+        border-left: 1px solid black;
+        width: 4rem;
+        font-size: .5em;
+        font-family: 'Arvo', serif;
+    }
+
+}
