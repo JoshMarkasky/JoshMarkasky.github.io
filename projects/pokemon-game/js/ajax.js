@@ -1,10 +1,9 @@
-(function(){// <--------- comment out to use console.log
 "use strict";
 
 alert("press battle button to start");
 
 //declaring api var
-let xhr = $.get('https://api.pokemontcg.io/v1/cards');
+// let xhr = $.get('https://api.pokemontcg.io/v1/cards');
 let card1 = '';
 let card2 = '';
 let player1Hp = 0;
@@ -316,4 +315,3 @@ function hideElementsBasedOnPlayerTurn() {
 }
 
 
-})();
