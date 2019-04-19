@@ -4,6 +4,17 @@ body{
     background-size: cover;
 }
 
+.geocoder {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    left: 41%;
+    margin-right: 50%;
+}
+
+
+.mapboxgl-ctrl-geocoder { min-width:100%; }
+
 .navbar{
     background-color: rgba(0, 181, 204, .7);
     height: 2.7em;
@@ -14,9 +25,9 @@ body{
     font-size: 1.5em;
 }
 
-.title{
-    font-size: 1.2em;
-}
+/*.title{*/
+/*font-size: 1.2em;*/
+/*}*/
 
 .box{
     border: 1px black solid;
@@ -55,13 +66,13 @@ body{
     font-family: 'Libre Baskerville', serif;
 }
 
-#summery{
+#summary{
     font-size: 1em;
 }
 
-#icon {
-    text-align: center;
-}
+/*#icon {*/
+/*text-align: center;*/
+/*}*/
 
 .city{
     font-size: 2em;
